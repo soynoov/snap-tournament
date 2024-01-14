@@ -3,5 +3,142 @@ import Layout from "../layouts/Layout.astro";
 ---
 
 <Layout title="| Snap Missions">
-  <section></section>
+  <article class="text-center">
+    <section>
+      <h1>Misiones Principales</h1>
+      <h3 class="text-xl">Farmeo Diario</h3>
+      <table class="m-auto text-justify">
+        <tr>
+          <td>
+            <ul class="list-['-']">
+              <li>Subir un Chroma a Infinito</li>
+              <li>Subir una Carta Base a Infinito</li>
+              <li>Subir una Variante a Infinito</li>
+              <li>Completar las <span>25</span> Misiones Semanales</li>
+            </ul>
+          </td>
+          <td>
+            <ul class="list-['=']">
+              <li>1</li>
+              <li>10</li>
+              <li>10</li>
+              <li>25</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+      <h3 class="text-xl">Competitivo</h3>
+      <table class="m-auto text-justify">
+        <tr>
+          <td>
+            <ul class="list-['-']">
+              <li>Completar el Pase de Batalla</li>
+              <li>Obtener la Carta Destacada</li>
+              <li>Alcanzar el Rango de Diamante</li>
+              <li>Alcanzar el Rango de Infinito</li>
+              <li>Obtener el Avatar Marco Infinito de Conquista</li>
+            </ul>
+          </td>
+          <td>
+            <ul class="list-['=']">
+              <li>50</li>
+              <li>150</li>
+              <li>200</li>
+              <li>1.000</li>
+              <li>500</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+      <h3 class="text-xl">Amante Coleccionista</h3>
+      <table class="m-auto text-justify">
+        <tr>
+          <td>
+            <ul class="list-['-']">
+              <li>Obtener Nueva Variante (Rara)</li>
+              <li>Obtener Nuevo Avatar Variante (Rara)</li>
+              <li>Obtener Nueva Variante (Super Rara)</li>
+              <li>Obtener Nuevo Avatar Variante (Super Rara)</li>
+              <li>Obtener Nueva Variante Conquista</li>
+              <li>Obtener Nueva Variante (Ultimate)</li>
+              <li>Completar Album</li>
+              <li>Completar Album Destacado</li>
+            </ul>
+          </td>
+          <td>
+            <ul class="list-['=']">
+              <li>7</li>
+              <li>7</li>
+              <li>12</li>
+              <li>12</li>
+              <li>50</li>
+              <li>300</li>
+              <li>600</li>
+              <li>1.200</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+      <h3 class="text-xl">Pierde Cuartos</h3>
+      <table class="m-auto text-justify">
+        <tr>
+          <td>
+            <ul class="list-['-']">
+              <li>Comprar Bundle de:</li>
+              <ul class="list-['-']">
+                <li>10 €</li>
+                <li>25 €</li>
+                <li>60 €</li>
+                <li>700 Lingotes de Oro</li>
+                <li>1.400 Lingotes de Oro</li>
+              </ul>
+            </ul>
+          </td>
+          <td>
+            <ul class="list-['=']">
+              <li class="list-none">_</li>
+              <li>200</li>
+              <li>350</li>
+              <li>700 <span>Y así sucesivamente...</span></li>
+              <li>70</li>
+              <li>140 <span>Y así sucesivamente...</span></li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+    </section>
+    <section>
+      <h1>Misiones de Evento</h1>
+    </section>
+    <section>
+      <h1>Misiones del Torneo</h1>
+    </section>
+  </article>
 </Layout>
+
+<style>
+  h1 {
+    padding: 1rem;
+    font-size: 1.5rem /* 24px */;
+    line-height: 2rem /* 32px */;
+    font-family: "Pacifico";
+    color: #25d366;
+  }
+  h3 {
+    padding: 0.5rem 0;
+    font-size: 1.25rem /* 20px */;
+    line-height: 1.75rem /* 28px */;
+    font-family: "Lobster";
+    color: #f89d1f;
+  }
+  span {
+    color: #dcbd4c;
+  }
+  section {
+    padding: 1rem;
+    margin: 0 1rem 1rem;
+  }
+  table td {
+    padding: 0 1rem;
+  }
+</style>
