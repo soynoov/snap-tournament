@@ -43,7 +43,7 @@
     },
     {
       "img": "https://game-assets.snap.fan/card_variant_images/Shanna-d9bf5eed45b955c6bbdd8dceed7da9d1ea356d18551e9d20cad99d5e67367506.webp",
-      "nombre": "Shanna",
+      "nombre": "Shanna The She-Devil",
       "price": 250,
       "skill": "Al revelarse",
       "details": "Se deben usar solo cartas de coste 1."
@@ -71,7 +71,7 @@
     },
     {
       "img": "https://game-assets.snap.fan/card_variant_images/Kang-afe446737a5b0f09166a903e036667e3bf2c719f5b3e7772ea1e7e5f314bd3a3.webp",
-      "nombre": "Kang",
+      "nombre": "Kang The Conqueror",
       "price": 1000,
       "skill": "Secreto",
       "details": "Esta carta se revelará al final de la partida. Al revelarse: Reinicia la partida."
