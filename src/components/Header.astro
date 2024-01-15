@@ -1,5 +1,6 @@
 ---
-
+const pathname = new URL(Astro.request.url).pathname;
+const currentPath = pathname.slice(1);
 ---
 
 <header class="font-[unbounded] p-4 flex justify-between items-center">
@@ -20,12 +21,12 @@
       <path d="M5 15l14 0"></path>
       <path d="M11 4l-4 16"></path><path d="M17 4l-4 16"> </path>
     </svg>
-    <a href="/">Snap Tournament</a>
+    <a class={currentPath === "" ? "active" : ""} href="/">Snap Tournament</a>
   </h1>
   <nav class="text-xl">
     <ul class="flex">
-      <li><a href="/missions">Misiones</a></li>
-      <li><a href="/shop">Tienda</a></li>
+      <li><a class={currentPath === "missions" ? "active" : ""} href="/missions">Misiones</a></li>
+      <li><a class={currentPath === "shop" ? "active" : ""} href="/shop">Tienda</a></li>
     </ul>
   </nav>
 </header>
@@ -36,6 +37,10 @@
   }
 
   a:hover {
+    color: var(--light);
+  }
+  .active {
+    font-weight: bold;
     color: var(--light);
   }
 </style>
