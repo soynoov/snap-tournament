@@ -1,0 +1,129 @@
+[
+    {
+      "img": "https://game-assets.snap.fan/card_variant_images/Ghost-1d2e2135128fca02cc13cbf02ab85c200c3ee46738150cd2f4b680a70a21bcb5.webp",
+      "nombre": "Ghost",
+      "price": 25,
+      "skill": "Al revelarse",
+      "details": "En el próximo combate, revelas el último."
+    },
+    {
+      "img": "https://game-assets.snap.fan/card_variant_images/Forge-bb908bd0f66554692223e906c43bd78792d532d8b405e45e69e7a15c4727c680.webp",
+      "nombre": "Forge",
+      "price": 50,
+      "skill": "Al revelarse",
+      "details": "Puedes usar una carta de 1 Pool superior al Pool establecido en el combate."
+    },
+    {
+      "img": "https://game-assets.snap.fan/card_variant_images/Zero-24443c997de4f9e9bb05c472791b5468bdb831c761034800263ac98e4c1da4fe.webp",
+      "nombre": "Zero",
+      "price": 50,
+      "skill": "Al revelarse",
+      "details": "Se bloquea el uso de una carta enemiga en el próximo combate."
+    },
+    {
+      "img": "https://game-assets.snap.fan/card_variant_images/Killmonger-c0224787de904d884f8c5c35c7b2e8c7bed751d3d3c341adba6ffdc32cc90c39.webp",
+      "nombre": "Killmonger",
+      "price": 100,
+      "skill": "Al revelarse",
+      "details": "No pueden usarse cartas de coste 1."
+    },
+    {
+      "img": "https://game-assets.snap.fan/card_variant_images/Sauron-8999b17465f706ae1dd02bff088f7e85c53f823d16e64f27de4c8131052210e4.webp",
+      "nombre": "Sauron",
+      "price": 100,
+      "skill": "Al revelarse",
+      "details": "Se bloquea un arquetipo enemigo."
+    },
+    {
+      "img": "https://game-assets.snap.fan/card_variant_images/HowardTheDuck-bb9eacd8d3e19e570b06c77e18c0600de2bb769da5336c32074d4b6e51b07221.webp",
+      "nombre": "Howard the Duck",
+      "price": 100,
+      "skill": "Continuo",
+      "details": "Ves la mano inicial de tu oponente."
+    },
+    {
+      "img": "https://game-assets.snap.fan/card_variant_images/Shanna-d9bf5eed45b955c6bbdd8dceed7da9d1ea356d18551e9d20cad99d5e67367506.webp",
+      "nombre": "Shanna",
+      "price": 250,
+      "skill": "Al revelarse",
+      "details": "Se deben usar solo cartas de coste 1."
+    },
+    {
+      "img": "https://game-assets.snap.fan/card_variant_images/AgathaHarkness-3ee1d10f0ea0efd8e62a54612478dc82616fa5d69993108b52068ad60f8fc354.webp",
+      "nombre": "Agatha Harkness",
+      "price": 500,
+      "skill": "Al revelarse",
+      "details": "Añades Agatha Harkness en el mazo enemigo."
+    },
+    {
+      "img": "https://game-assets.snap.fan/card_variant_images/Enchantress-6bd40617328dd5738734a61bd9d5b8fcb57868d7292f4f716021a2345d92e75f.webp",
+      "nombre": "Enchantress",
+      "price": 500,
+      "skill": "Al revelarse",
+      "details": "Elimina todos los efectos y reglas de esta partida."
+    },
+    {
+      "img": "https://game-assets.snap.fan/card_variant_images/Loki-fd0954a7248e815c49dca118f1d17208e3830c2ebdd0018c5efc0af0fe65173d.webp",
+      "nombre": "Loki",
+      "price": 500,
+      "skill": "Al revelarse",
+      "details": "Copias el mazo enemigo."
+    },
+    {
+      "img": "https://game-assets.snap.fan/card_variant_images/Kang-afe446737a5b0f09166a903e036667e3bf2c719f5b3e7772ea1e7e5f314bd3a3.webp",
+      "nombre": "Kang",
+      "price": 1000,
+      "skill": "Secreto",
+      "details": "Esta carta se revelará al final de la partida. Al revelarse: Reinicia la partida."
+    },
+    {
+      "img": "https://game-assets.snap.fan/card_variant_images/ProfessorX-f951ad26d8a20b53336cfb37c7537c42787580ccad5d2bcd6b02c3d20df90aad.webp",
+      "nombre": "Professor X",
+      "price": 1000,
+      "skill": "Al revelarse",
+      "details": "Los últimos turnos de este combate no se pueden lanzar cartas."
+    },
+    {
+      "img": "https://game-assets.snap.fan/card_variant_images/ShangChi-02af9b7c01edd6b6038416898d0837e0d09979ac124bd22f5f11afde8aa810be.webp",
+      "nombre": "Shang-Chi",
+      "price": 1000,
+      "skill": "Continuo",
+      "details": "Cualquier carta enemiga con 10 o más de poder no podrá jugarse."
+    },
+    {
+      "img": "https://game-assets.snap.fan/card_variant_images/Rogue-ffa4e3a381994c2ca9ef3e2b6d79a3efbcf8f38fdb29cfecf403da05c030d05b.webp",
+      "nombre": "Rogue",
+      "price": 1000,
+      "skill": "Al revelarse",
+      "details": "El enemigo y tú intercambiáis los arquetipos."
+    },
+    {
+      "img": "https://game-assets.snap.fan/card_variant_images/LivingTribunal-abecdb273d8809fdf4b9151c758e5fbf2b23a74804b90d63e09e80aa5fb03753.webp",
+      "nombre": "The Living Tribunal",
+      "price": 1000,
+      "skill": "Secreto",
+      "details": "Gana quien tenga más poder total."
+    },
+    {
+      "img": "https://game-assets.snap.fan/card_variant_images/Destroyer-b48e87c5bf31277c4d941a446e344e78e0dbe252079dde005e088bd6b632b0fa.webp",
+      "nombre": "Destroyer",
+      "price": 5000,
+      "skill": "Al revelarse",
+      "details": "Destruye 8 cartas del mazo enemigo y se los sustituyes a placer."
+    },
+    {
+      "img": "https://game-assets.snap.fan/card_variant_images/Daredevil-3927b0bed806dab1c1e7c9bfaa7cfad0143afc2e6a38fd8190ac06b412d1c4b7.webp",
+      "nombre": "Daredevil",
+      "price": 5000,
+      "skill": "Continuo",
+      "details": "Puedes ver la mano del oponente en todo momento."
+    },
+    {
+      "img": "https://game-assets.snap.fan/card_variant_images/Galactus-c75f8a00acb53d146eabf4730775d149d552067c07012cf750099ec7050ca2fe.webp",
+      "nombre": "Galactus",
+      "price": 10000,
+      "skill": "Al revelarse",
+      "details": "Destruye el mazo enemigo y se lo sustituyes a placer."
+    }
+  ]
+  

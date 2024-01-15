@@ -1,7 +1,19 @@
 ---
 import Layout from "../layouts/Layout.astro";
+import Card from "../components/Card.astro";
+import CardData from "../data/snap.json";
 ---
 
 <Layout title="| Snap Shop">
-  <section></section>
+  <article class="grid grid-cols-5 m-4 pt-4">
+    {CardData.map((CardData) => (
+      <Card
+        img={CardData.img}
+        name={CardData.nombre}
+        price={CardData.price}
+        skill={CardData.skill}
+        details={CardData.details}
+      />
+    ))}
+  </article>
 </Layout>
