@@ -13,14 +13,14 @@ const { img, name, price, skill, details } = Astro.props
 <section class="text-center m-4 p-4 rounded-md">
     <img src={img}>
     <h3>{name}</h3>
-    <h6 class="font-bold text-xl">{price}</h6>
+    <h6>{price}</h6>
     <p class="text-justify"><span class="font-bold">{skill}:</span> {details}</p>
 </section>
 
 <style>
     h6 {
         color: steelblue;
-        font-family: 'Caveat';
+        font-family: 'Pacifico';
         margin-top: -.5rem;
     }
     section {
