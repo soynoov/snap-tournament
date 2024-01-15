@@ -4,44 +4,60 @@ const currentPath = pathname.slice(1);
 ---
 
 <header class="font-[unbounded] p-4 flex justify-between items-center">
-  <h1 class="flex text-center font-bold text-2xl text-[--light] font-['unbounded']">
-    <svg
-      class="self-center"
-      width="24"
-      height="24"
-      viewBox="0 0 24 24"
-      stroke-width="2"
-      stroke="currentColor"
-      fill="none"
-      stroke-linecap="round"
-      stroke-linejoin="round"
-    >
-      <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-      <path d="M5 9l14 0"></path>
-      <path d="M5 15l14 0"></path>
-      <path d="M11 4l-4 16"></path><path d="M17 4l-4 16"> </path>
-    </svg>
-    <a href="/">Snap Tournament</a>
-  </h1>
-  <nav class="text-xl">
-    <ul class="flex">
-      <li><a class={currentPath.includes("missions") ? "active" : ""} href="/missions">Misiones</a></li>
-      <li><a class={currentPath.includes("shop") ? "active" : ""} href="/shop">Tienda</a></li>
-    </ul>
-  </nav>
+	<h1
+		class="flex text-center font-bold text-2xl text-[--light] font-['unbounded']"
+	>
+		<svg
+			class='self-center'
+			width='24'
+			height='24'
+			viewBox='0 0 24 24'
+			stroke-width='2'
+			stroke='currentColor'
+			fill='none'
+			stroke-linecap='round'
+			stroke-linejoin='round'
+		>
+			<path stroke='none' d='M0 0h24v24H0z' fill='none'></path>
+			<path d='M5 9l14 0'></path>
+			<path d='M5 15l14 0'></path>
+			<path d='M11 4l-4 16'></path><path d='M17 4l-4 16'> </path>
+		</svg>
+		<a href='/'>Snap Tournament</a>
+	</h1>
+	<nav class='text-xl'>
+		<ul class='flex'>
+			<li>
+				<a
+					class={currentPath.includes('missions') ? 'active' : ''}
+					href='/missions'>Misiones</a>
+			</li>
+			<li>
+				<a
+					class={currentPath.includes('shop') ? 'active' : ''}
+					href='/shop'>Tienda</a>
+			</li>
+		</ul>
+	</nav>
 </header>
 
 <style>
-  li {
-    padding: 0 2rem;
-  }
+	li {
+		padding: 0 2rem;
+	}
 
-  a:hover {
-    color: var(--light);
-    font-weight: bold;
-  }
-  .active {
-    font-weight: bold;
-    color: var(--light);
-  }
+	a:hover {
+		color: var(--light);
+		font-weight: bold;
+	}
+	.active {
+		font-weight: bold;
+		color: var(--light);
+	}
+
+	@media (max-width: 1200px) {
+		header {
+      flex-direction: column;
+		}
+	}
 </style>
