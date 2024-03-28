@@ -3,63 +3,79 @@ const pathname = new URL(Astro.request.url).pathname;
 const currentPath = pathname.slice(1);
 ---
 
-<header class="font-[unbounded] m-4 flex justify-between items-center">
-  <h1
-    class="flex text-center font-bold text-2xl text-[--light] font-['unbounded']"
-  >
-    <svg
-      class="self-center"
-      width="24"
-      height="24"
-      viewBox="0 0 24 24"
-      stroke-width="2"
-      stroke="currentColor"
-      fill="none"
-      stroke-linecap="round"
-      stroke-linejoin="round"
-    >
-      <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-      <path d="M5 9l14 0"></path>
-      <path d="M5 15l14 0"></path>
-      <path d="M11 4l-4 16"></path><path d="M17 4l-4 16"> </path>
-    </svg>
-    <a href="/">Snap Tournament</a>
-  </h1>
-  <nav class="text-xl">
-    <ul class="flex">
-      <li>
-        <a
-          class={currentPath.includes("missions") ? "active" : ""}
-          href="/missions">Misiones</a
-        >
-      </li>
-      <li>
-        <a class={currentPath.includes("shop") ? "active" : ""} href="/shop"
-          >Tienda</a
-        >
-      </li>
-      <li>
-        <a
-          class={currentPath.includes("tournament") ? "active" : ""}
-          href="/tournament">Torneo</a
-        >
-      </li>
-    </ul>
+<header>
+  <nav class='flex justify-around w-full text-3xl font-[jura] font-extrabold'>
+    <div>
+      <ul>
+        <li>
+          <a class={currentPath == '' ? 'active' : ''} href='/'>Inicio</a>
+        </li>
+        <li>
+          <a class={currentPath.includes('info') ? 'active' : ''} href='/info'
+            >Info</a
+          >
+        </li>
+      </ul>
+      <hr class='w-[16.55cm]' />
+    </div>
+    <img
+      src='https://esportscityleague.es/wp-content/uploads/2023/03/AnyConv.com__1643367095102_s1069673-1024x512.webp'
+      alt='Logo'
+      class='h-[5cm]'
+    />
+    <div>
+      <ul>
+        <li>
+          <a
+            class={currentPath.includes('tournament') ? 'active' : ''}
+            href='/tournament'>Torneo</a
+          >
+        </li>
+        <li>
+          <a class={currentPath.includes('shop') ? 'active' : ''} href='/shop'
+            >Tienda</a
+          >
+        </li>
+      </ul>
+      <hr class='w-[18.35cm]' />
+    </div>
   </nav>
 </header>
 
 <style>
+  @import url('https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap');
+
+  ul {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    width: 100%;
+  }
   li {
-    padding: 0 2rem;
+    padding-bottom: 1rem;
+  }
+  a {
+    padding: 1rem 3.2cm;
+  }
+
+  div {
+    width: 100%;
+  }
+  hr {
+    margin: 0 auto;
+    height: 0.25rem;
+    background-color: #333;
+    border: none;
   }
 
   a:hover {
     color: var(--light);
     font-weight: bold;
   }
+
   .active {
     font-weight: bold;
-    color: var(--light);
+    background-color: #333;
   }
 
   @media (max-width: 1200px) {
