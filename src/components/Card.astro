@@ -1,29 +1,29 @@
 ---
 interface Props {
-    img: string
-    name: string
-    price: number
-    skill: string
-    details: string    
+  img: string;
+  name: string;
+  price: number;
+  skill: string;
+  details: string;
 }
 
-const { img, name, price, skill, details } = Astro.props
+const { img, name, price, skill, details } = Astro.props;
 ---
 
-<section class="text-center m-4 p-4 rounded-md">
-    <img src={img}>
-    <h3>{name}</h3>
-    <h6>{price}</h6>
-    <p class="text-justify text-wrap"><span class="font-bold">{skill}:</span> {details}</p>
+<section class='text-center m-4 p-4 rounded-md'>
+  <img src={img} />
+  <h3>{name}</h3>
+  <h6>{price}</h6>
+  <p class='text-justify text-wrap'>
+    <span class='font-bold'>{skill}:</span>
+    {details}
+  </p>
 </section>
 
 <style>
-    h6 {
-        color: steelblue;
-        font-family: 'Pacifico';
-        margin-top: -.5rem;
-    }
-    section {
-        background-color: #333;
-    }
+  h6 {
+    color: steelblue;
+    font-family: 'Pacifico';
+    margin-top: -0.5rem;
+  }
 </style>
