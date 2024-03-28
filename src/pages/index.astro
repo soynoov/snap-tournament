@@ -4,9 +4,9 @@ import Leaderboard from '../components/Leaderboard.astro';
 ---
 
 <Layout title='| Snap Tournament'>
-  <article class='flex justify-center'>
+  <article class='flex flex-col justify-center items-center'>
     <section>
-      <p class='text-center p-4 m-4 w-[80%] text-pretty'>
+      <p class='text-center p-4 m-4 w-[30cm] text-pretty'>
         ¡Bienvenidos, héroes y villanos, al épico torneo de cartas Marvel SNAP!
         <br /><br />
 
@@ -35,3 +35,9 @@ import Leaderboard from '../components/Leaderboard.astro';
     </section>
   </article>
 </Layout>
+
+<style>
+  section {
+    margin: 0 auto;
+  }
+</style>
